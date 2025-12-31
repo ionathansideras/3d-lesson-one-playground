@@ -9,10 +9,7 @@ function App() {
             <SoftShadows samples={200} />
             <OrbitControls />
             <Lights />
-            <mesh receiveShadow>
-                <boxGeometry args={[1, 1, 1]} />
-                <meshStandardMaterial color={"white"} />
-            </mesh>
+
             <mesh scale={0.3} position={[1, 1, 0]} castShadow>
                 <sphereGeometry />
                 <meshStandardMaterial color={"white"} />
